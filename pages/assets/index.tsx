@@ -13,16 +13,12 @@ const Assets = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Assets | Nouns Center" />
+        <Header title="Assets | Ocean Nouns Center" />
         <Title title="Assets" />
 
         <Subheader
           title="Resource Hub"
-          body="Repository of trait assets, fonts, and other resources you may need to work with Nouns. If you're still looking for something that's not here click the button and let me know."
-        />
-        <Button
-          text="What's missing?"
-          link="https://www.addressform.io/form/2c6a8c3e-7e17-4dfa-b30e-e0620e6773d7"
+          body="Repository of trait assets, fonts, and other resources you may need to work with Ocean Nouns. If you're still looking for something that's not here click the button and let me know."
         />
       </PageHeader>
 
@@ -48,7 +44,7 @@ const Assets = () => {
                     <div className="space-y-2">
                       <div className="leading-6 font-medium space-y-1 flex  justify-between items-start">
                         <Button
-                          text="Download"
+                          text={asset.download ? "Download" : "View"}
                           link={asset.download ? `/assets/${asset.file}` : asset.file}
                           self={asset.download}
                         />
