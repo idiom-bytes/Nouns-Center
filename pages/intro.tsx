@@ -36,8 +36,8 @@ const Intro = ({ docsData }) => {
         <Title title="Intro" />
 
         <Subheader
-          title="A Brief Introduction to Nouns"
-          body="If you ever wanted to know what Nouns is all about, this is a great place to start."
+          title="A Brief Introduction to Ocean Nouns"
+          body="If you ever wanted to know what Ocean Nouns is all about, this is a great place to start."
         />
       </PageHeader>
 

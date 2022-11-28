@@ -1,19 +1,14 @@
 [
   {
-    "name": "About Nouns",
-    "title": "Learn about Nouns",
-    "description": "Learn about the Nouns project, the ecosystem and community.",
+    "name": "About Ocean Nouns",
+    "title": "Learn about Ocean Nouns",
+    "description": "Learn about the Ocean Nouns project, the ecosystem and community.",
     "defaultOpen": true,
     "current": false,
     "children": [
       {
         "name": "Intro",
         "link": "/intro",
-        "external": false
-      },
-      {
-        "name": "Traits",
-        "link": "/traits",
         "external": false
       },
       {
@@ -30,7 +25,7 @@
   },
   {
     "name": "For Builders",
-    "title": "Build with Nouns",
+    "title": "Build with Ocean Nouns",
     "description": "Access design assets, codebase and more resources.",
     "current": false,
     "defaultOpen": true,
@@ -47,7 +42,7 @@
       },
       {
         "name": "GitHub",
-        "link": "https://github.com/nounsDAO/nouns-monorepo",
+        "link": "https://github.com/idiom-bytes/nouns-monorepo",
         "external": true
       },
       {
@@ -65,7 +60,7 @@
   {
     "name": "Get Funding",
     "title": "Get Funded",
-    "description": "Learn about getting funded by Nouns and apply.",
+    "description": "Learn about getting funded by Ocean Nouns and apply.",
     "current": false,
     "defaultOpen": true,
     "children": [
@@ -94,7 +89,7 @@
   {
     "name": "Community",
     "title": "Community",
-    "description": "Meet the growing list of projects and members of the Nouns ecosystem.",
+    "description": "Meet the growing list of projects and members of the Ocean Nouns ecosystem.",
     "current": false,
     "defaultOpen": true,
     "children": [
@@ -112,16 +107,6 @@
         "name": "Learn",
         "link": "/learn",
         "external": false
-      },
-      {
-        "name": "Podcast",
-        "link": "http://nounotalk.com/",
-        "external": true
-      },
-      {
-        "name": "Blog",
-        "link": "https://nouns.blog/",
-        "external": true
       }
     ]
   }

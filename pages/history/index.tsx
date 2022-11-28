@@ -16,7 +16,7 @@ const History = () => {
 
         <Subheader
           title="Moments &#38; Milestones"
-          body="A timeline of Nouns DAO's major milestones and noteworthy moments that have happened since the project's inception. Click the button to suggest an event that should be added."
+          body="A timeline of Ocean Nouns DAO's major milestones and noteworthy moments that have happened since the project's inception. Click the button to suggest an event that should be added."
         />
         <Button
           text="What's missing?"

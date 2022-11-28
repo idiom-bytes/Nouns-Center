@@ -33,12 +33,12 @@ const Groups = ({ groups }) => {
   return (
     <>
       <PageHeader>
-        <Header title="Groups | Nouns Center" />
+        <Header title="Groups | Ocean Nouns Center" />
         <Title title="Groups" />
 
         <Subheader
           title="Looking for a community?"
-          body="A list of all the groups in the Nouns universe including their description and Discord invite link. Don't see your group here? Add it to the backlog, and we'll get it up as soon as possbile."
+          body="A list of all the groups in the Ocean Nouns universe including their description and Discord invite link. Don't see your group here? Add it to the backlog, and we'll get it up as soon as possbile."
         />
         <Button text="Add your group" link="https://www.addressform.io/f/groups" />
       </PageHeader>
