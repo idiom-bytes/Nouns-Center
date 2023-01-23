@@ -61,14 +61,15 @@ const proposals = () => {
         <Title title="Funding: Proposals" />
 
         <Subheader
-          title="For Projects needing 10-1,000Ξ"
-          body="Resources allocated for the long-term growth of the Nouns project. Larger in scope and undergo more scrutiny."
+          title="For Projects needing 1-10Ξ"
+          body="Resources allocated for the long-term growth of the Nouns project. The larger in scope, the more scrutiny they undergo."
         />
       </PageHeader>
 
       <PageContent>
         <div>
-          <div className="relative bg-[#EBEBEB] rounded-xl">
+          {/* Proposals Discourse Overview */}
+          {/* <div className="relative bg-[#EBEBEB] rounded-xl">
             <div className="bg-[#3467EB] md:absolute md:left-0 md:h-full md:w-1/2 sm:flex sm:items-center rounded-l-xl">
               <img src="/funding/props.gif" className="fit-content" alt="timeline" />
             </div>
@@ -89,7 +90,7 @@ const proposals = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <TextContent title="Overview">
             <p>
@@ -143,7 +144,8 @@ const proposals = () => {
               and a cost breakdown.
             </p>
 
-            <div>
+            {/* Proposals Preview */}
+            {/* <div>
               <div className="relative sm:py-6">
                 <div className="relative max-w-7xl mx-auto">
                   <div className="xs:mt-6 sm:mt-0 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
@@ -199,7 +201,7 @@ const proposals = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </TextContent>
 
           <TextContent title="Post on Discourse">
