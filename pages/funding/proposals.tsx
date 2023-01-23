@@ -57,44 +57,20 @@ const proposals = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Proposals | Nouns Center" />
+        <Header title="Proposals | OceanNouns" />
         <Title title="Funding: Proposals" />
 
         <Subheader
           title="For Projects needing 1-10Ξ"
-          body="Resources allocated for the long-term growth of the Nouns project. The larger in scope, the more scrutiny they undergo."
+          body="Resources allocated for the long-term growth of the OceanNouns project. The larger in scope, the more scrutiny they undergo."
         />
       </PageHeader>
 
       <PageContent>
         <div>
-          {/* Proposals Discourse Overview */}
-          {/* <div className="relative bg-[#EBEBEB] rounded-xl">
-            <div className="bg-[#3467EB] md:absolute md:left-0 md:h-full md:w-1/2 sm:flex sm:items-center rounded-l-xl">
-              <img src="/funding/props.gif" className="fit-content" alt="timeline" />
-            </div>
-
-            <div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-6">
-              <div className="md:ml-auto md:w-1/2 md:pl-10">
-                <p className="mt-2 text-black text-3xl font-extrabold text-nouns tracking-wider sm:text-4xl">
-                  Build on Nouns
-                </p>
-                <p className="mt-3 text-lg text-gray-500">
-                  View past proposals to get an idea of what&apos;s been funded and feel free to
-                  open a Discourse post with your idea.
-                </p>
-
-                <div className="mt-8 flex gap-4">
-                  <Button text={'Post An Idea'} link="https://discourse.nouns.wtf/" />
-                  <Button text={'Past Proposals'} link="https://nouns.wtf/vote" />
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           <TextContent title="Overview">
             <p>
-              This guide will walk you through the steps creating a Nouns DAO proposal. If
+              This guide will walk you through the steps creating an OceanNouns DAO proposal. If
               you&apos;re unsure if opening a proposal is the correct path to take for your ideato
               receive funding, please refer back to{' '}
               <Link text="this guide" url="/funding" leavesPage={false} /> to make sure you&apos;re
@@ -102,24 +78,21 @@ const proposals = () => {
               haven&apos;t been fleshed out, you can get feedback in the{' '}
               <Link
                 text="#proposal-ideas"
-                url="https://discord.com/channels/849745721544146955/875751366340005908"
+                url="https://github.com/oceanprotocol/oceandao/wiki/OceanDAO-Tech-Earmarks"
                 leavesPage={true}
               />{' '}
               channel in the{' '}
-              <Link text="Nouns Discord" url="https://discord.com/invite/nouns" leavesPage={true} />
+              <Link text="OceanNouns Discord" url="https://discord.gg/TnXjkR5" leavesPage={true} />
               .
             </p>
           </TextContent>
 
           <TextContent title="Sponsorship">
             <p>
-              Only Noun owners (Nouners) can submit official proposals to the DAO for funding. If
-              you don&apos;t own a Noun yourself then you&apos;ll have to get a sponsor to open the
-              proposal for you. You can connect with a Nouner sponsor either by waiting on feedback
-              on your Discourse post or networking in the Discord. You can also try to get groups
-              like <Link text="The Nouncil" url="https://nouncil.wtf" leavesPage={true} /> or any of
-              the <Link text="Nouns' Subdaos" url="/subdaos" leavesPage={false} /> to sponsor your
-              proposal.
+              Only OceanNoun owners (OceanNouners) can submit official proposals to the DAO for funding. If
+              you don&apos;t own an OceanNoun yourself then you&apos;ll have to get a sponsor to open the
+              proposal for you. You can connect with an OceanNouner sponsor either by waiting on feedback
+              on your Discourse post or networking in the Discord.
             </p>
           </TextContent>
 
@@ -127,7 +100,7 @@ const proposals = () => {
             <p>Your proposal should effectively communicate:</p>
             <ul className="list-disc list-inside pb-4">
               <li className="ml-6">What is the project</li>
-              <li className="ml-6">How will it proliferate Nouns</li>
+              <li className="ml-6">How will it proliferate OceanNouns</li>
               <li className="ml-6">How much funding you&apos;ll need</li>
               <li className="ml-6">How the funds break down</li>
               <li className="ml-6">What are the success metrics</li>
@@ -138,77 +111,17 @@ const proposals = () => {
               <b>&quot;TLDR section&quot;</b>. It is common for proposals to become very long as
               people write out all the implementation details so, for the sake of the reviewers,
               having this <em>baseline info</em> easily available is appreciated. Think &quot;if
-              they don&apos;t read the full proposal, what do they <b>need</b> to know?&quot; Below
-              you can see three well-rounded proposals that were successfully funded. Each of them
-              clearly communicated their idea with a simple overview, a timeline with milestones,
+              they don&apos;t read the full proposal, what do they <b>need</b> to know?&quot; Each proposal
+              should clearly communicated their idea with a simple overview, a timeline with milestones,
               and a cost breakdown.
             </p>
-
-            {/* Proposals Preview */}
-            {/* <div>
-              <div className="relative sm:py-6">
-                <div className="relative max-w-7xl mx-auto">
-                  <div className="xs:mt-6 sm:mt-0 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-                    {props.map(prop => (
-                      <div
-                        key={prop.title}
-                        className="flex flex-col rounded-lg shadow-lg overflow-hidden"
-                      >
-                        <div className="flex-shrink-0">
-                          <a href={prop.href} target="_blank" rel="noreferrer">
-                            <img className="h-48 w-full object-cover" src={prop.imageUrl} alt="" />
-                          </a>
-                        </div>
-                        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-                          <div className="flex-1">
-                            <a
-                              href={prop.href}
-                              target="_blank"
-                              rel="noreferrer"
-                              className="block mt-2"
-                            >
-                              <p className="text-xl text-nouns tracking-wide text-gray-900">
-                                {prop.title}
-                              </p>
-                              <p className="mt-3 text-base text-gray-500">{prop.description}</p>
-                            </a>
-                          </div>
-                          <div className="mt-6 flex items-center">
-                            <div className="flex-shrink-0">
-                              <a href={prop.author.href} target="_blank" rel="noreferrer">
-                                <span className="sr-only">{prop.author.name}</span>
-                                <img
-                                  className="h-10 w-10 rounded-full"
-                                  src={prop.author.imageUrl}
-                                  alt={prop.title}
-                                />
-                              </a>
-                            </div>
-                            <div className="ml-3">
-                              <p className="text-sm font-medium text-gray-900">
-                                <a href={prop.author.href} target="_blank" rel="noreferrer">
-                                  {prop.author.name}
-                                </a>
-                              </p>
-                              <div className="flex space-x-1 text-sm text-gray-500">
-                                {prop.date}
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </TextContent>
 
           <TextContent title="Post on Discourse">
             <p>
               Once you have all the details nailed down you can post your proposal on{' '}
               <Link text={'Discourse'} url={'https://discourse.nouns.wtf/'} leavesPage={true} />, a
-              forum for Nouns proposal ideas. At the top click the <b>&quot;+ New Topic&quot;</b>{' '}
+              forum for OceanNouns proposal ideas. At the top click the <b>&quot;+ New Topic&quot;</b>{' '}
               button and post your idea. Be sure to prefix the title with{' '}
               <b>&quot;Proposal: &quot;</b> so that it stands out as a proposal request when others
               are sifting through the entire list. Then, copy/paste your content (copy &amp; images)
@@ -234,7 +147,7 @@ const proposals = () => {
               beforehand that would&apos;ve been a shame. So take feedback seriously, be prepared to
               push back as well, and ultimately know that criticism isn&apos;t a bad thing. If
               you&apos;re open, take the feedback and modify the proposal before going on-chain with
-              it. The aim is to make sure the proposal proliferates Nouns effectively based off the
+              it. The aim is to make sure the proposal proliferates OceanNouns effectively based off the
               proposed execution and funds requested.
             </p>
           </TextContent>
@@ -246,7 +159,7 @@ const proposals = () => {
               <Status status="pending" bgColor="bg-[#4965f0]" />. This is a 2-day window where the
               proposal is public but not able to be voted on. Usually more discussion around the
               prop happens during this time. After those couple days, its status changes to{' '}
-              <Status status="active" bgColor="bg-[#4965f0]" /> and Noun holders can vote on it for
+              <Status status="active" bgColor="bg-[#4965f0]" /> and OceanNoun holders can vote on it for
               the next 3 days. Barring cancellation or a veto, the proposal will either have{' '}
               <Status status="succeeded" bgColor="bg-[#43b369]" /> or been{' '}
               <Status status="defeated" bgColor="bg-[#e40536]" />. If it succeeds, it will then have
