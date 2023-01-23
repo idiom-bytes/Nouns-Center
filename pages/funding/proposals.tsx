@@ -57,12 +57,12 @@ const proposals = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Proposals | OceanNouns" />
+        <Header title="Proposals | Ocean Nouns" />
         <Title title="Funding: Proposals" />
 
         <Subheader
-          title="For Projects needing 1-10Ξ"
-          body="Resources allocated for the long-term growth of the OceanNouns project. The larger in scope, the more scrutiny they undergo."
+          title="For Projects needing 1-5Ξ"
+          body="Resources allocated for the long-term growth of the Ocean Nouns project. Larger in scope and undergo more scrutiny."
         />
       </PageHeader>
 
@@ -70,7 +70,7 @@ const proposals = () => {
         <div>
           <TextContent title="Overview">
             <p>
-              This guide will walk you through the steps creating an OceanNouns DAO proposal. If
+              This guide will walk you through the steps creating an Ocean Nouns DAO proposal. If
               you&apos;re unsure if opening a proposal is the correct path to take for your ideato
               receive funding, please refer back to{' '}
               <Link text="this guide" url="/funding" leavesPage={false} /> to make sure you&apos;re
@@ -82,7 +82,7 @@ const proposals = () => {
                 leavesPage={true}
               />{' '}
               channel in the{' '}
-              <Link text="OceanNouns Discord" url="https://discord.gg/TnXjkR5" leavesPage={true} />
+              <Link text="Ocean Nouns Discord" url="https://discord.gg/TnXjkR5" leavesPage={true} />
               .
             </p>
           </TextContent>
@@ -100,7 +100,7 @@ const proposals = () => {
             <p>Your proposal should effectively communicate:</p>
             <ul className="list-disc list-inside pb-4">
               <li className="ml-6">What is the project</li>
-              <li className="ml-6">How will it proliferate OceanNouns</li>
+              <li className="ml-6">How will it proliferate Ocean Nouns</li>
               <li className="ml-6">How much funding you&apos;ll need</li>
               <li className="ml-6">How the funds break down</li>
               <li className="ml-6">What are the success metrics</li>
@@ -121,7 +121,7 @@ const proposals = () => {
             <p>
               Once you have all the details nailed down you can post your proposal on{' '}
               <Link text={'Discourse'} url={'https://discourse.nouns.wtf/'} leavesPage={true} />, a
-              forum for OceanNouns proposal ideas. At the top click the <b>&quot;+ New Topic&quot;</b>{' '}
+              forum for Ocean Nouns proposal ideas. At the top click the <b>&quot;+ New Topic&quot;</b>{' '}
               button and post your idea. Be sure to prefix the title with{' '}
               <b>&quot;Proposal: &quot;</b> so that it stands out as a proposal request when others
               are sifting through the entire list. Then, copy/paste your content (copy &amp; images)
@@ -147,7 +147,7 @@ const proposals = () => {
               beforehand that would&apos;ve been a shame. So take feedback seriously, be prepared to
               push back as well, and ultimately know that criticism isn&apos;t a bad thing. If
               you&apos;re open, take the feedback and modify the proposal before going on-chain with
-              it. The aim is to make sure the proposal proliferates OceanNouns effectively based off the
+              it. The aim is to make sure the proposal proliferates Ocean Nouns effectively based off the
               proposed execution and funds requested.
             </p>
           </TextContent>

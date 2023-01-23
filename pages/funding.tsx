@@ -38,7 +38,7 @@ export async function getStaticProps() {
 const funding = [
   {
     source: 'Small Grants',
-    range: '0.1 - 0.2',
+    range: '0.1 - 0.5',
     totalEth: 0,
     recipients: 0,
     recipientType: 'projects',
@@ -46,14 +46,14 @@ const funding = [
     link: '/funding/smallgrants',
     linkText: 'Request a grant',
     tagline:
-      'Creators who have either been given a grant from OceanNounsDAO or received retroactive funding for proliferating Ocean Nouns.',
+      'Creators who have been given a grant from Ocean Nouns DAO or received retroactive funding for proliferating Ocean Nouns.',
     textColor: 'text-[#028940]',
     bgColor: 'bg-[#028940]',
     img: 'sml.png',
   },
   {
     source: 'Prop House',
-    range: '0.2 - 0.5',
+    range: '0.5 - 1.0',
     totalEth: 0,
     recipients: 0,
     recipientType: 'winners',
@@ -68,7 +68,7 @@ const funding = [
   },
   {
     source: 'Proposals',
-    range: '0.5 - 1',
+    range: '1.0 - 5.0',
     totalEth: 0,
     recipients: 0,
     recipientType: 'props',
@@ -141,7 +141,7 @@ const Funding = () => {
         <Header title="Funding | Ocean Nouns Center" />
         <Title title="Funding" />
 
-        <Subheader body="Looking to get funding for an Ocean Nounish project? There are many ways to go about doing so! Below you can compare the different avenues. It's important to take in to consideration project scope and timeline." />
+        <Subheader body="Looking to get funding for an Ocean Nouns project? There are many ways to go about doing so! Below you can compare the different avenues. It's important to take in to consideration project scope and timeline." />
       </PageHeader>
 
       <PageContent>

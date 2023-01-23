@@ -3,8 +3,32 @@
     "date": "23/11/22",
     "title": "First Public Tweet",
     "body": "We made noise for the first time.",
-    "img": "helloworld.png",
+    "img": "oceannouns_helloworld.png",
     "link": "https://twitter.com/oceannouns/status/1595495463578636290",
+    "buttonText": "View tweet"
+  },
+  {
+    "date": "11/01/23",
+    "title": "First Prop House Proposal",
+    "body": "We provided an outline for the Nouns community.",
+    "img": "oceannouns_first_proposal.png",
+    "link": "https://twitter.com/oceannouns/status/1613086424554668032",
+    "buttonText": "View tweet"
+  },
+  {
+    "date": "13/01/23",
+    "title": "First Prototyped Announced",
+    "body": "We showed the world the first Ocean Nouns.",
+    "img": "oceannouns_first_prototype.png",
+    "link": "https://twitter.com/oceannouns/status/1613086424554668032",
+    "buttonText": "View tweet"
+  },
+  {
+    "date": "16/01/23",
+    "title": "First Prop House Interview",
+    "body": "We presented our proposal and project to the community.",
+    "img": "oceannouns_first_interview.png",
+    "link": "https://twitter.com/oceannouns/status/1615161933698863105",
     "buttonText": "View tweet"
   }
 ]
