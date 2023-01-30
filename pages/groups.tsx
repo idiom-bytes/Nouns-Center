@@ -7,7 +7,7 @@ import Subheader from '../components/Subheader';
 import Button from '../components/common/Button';
 import Table from '../components/groups/Table';
 
-const communitiesNotionLink = 'aebc0a4fb69a48a1bb6001bf356014ae';
+const communitiesNotionLink = 'cb3cd6437dd04150a7e1923ce4b6f0c4';
 
 export async function getStaticProps() {
   let data = [];
@@ -33,12 +33,12 @@ const Groups = ({ groups }) => {
   return (
     <>
       <PageHeader>
-        <Header title="Groups | Ocean Nouns Center" />
+        <Header title="Groups | OceanNouns Center" />
         <Title title="Groups" />
 
         <Subheader
           title="Looking for a community?"
-          body="A list of all the groups in the Ocean Nouns universe including their description and Discord invite link. Don't see your group here? Add it to the backlog, and we'll get it up as soon as possbile."
+          body="A list of all the groups in the OceanNouns universe including their description and Discord invite link. Don't see your group here? Add it to the backlog, and we'll get it up as soon as possbile."
         />
         <Button text="Add your group" link="https://www.addressform.io/f/groups" />
       </PageHeader>

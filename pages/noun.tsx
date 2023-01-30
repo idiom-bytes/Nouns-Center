@@ -10,7 +10,7 @@ const Noun = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Noun | Nouns Center" />
+        <Header title="Noun | OceanNouns Center" />
         <Title title="Noun" />
 
         <Subheader body="So you need a Noun." />

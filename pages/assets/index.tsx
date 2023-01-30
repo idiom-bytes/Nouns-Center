@@ -13,12 +13,12 @@ const Assets = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Assets | Ocean Nouns Center" />
+        <Header title="Assets | OceanNouns Center" />
         <Title title="Assets" />
 
         <Subheader
           title="Resource Hub"
-          body="Repository of trait assets, fonts, and other resources you may need to work with Ocean Nouns. If you're still looking for something that's not here click the button and let me know."
+          body="Repository of trait assets, fonts, and other resources you may need to work with OceanNouns. If you're still looking for something that's not here click the button and let me know."
         />
       </PageHeader>
 

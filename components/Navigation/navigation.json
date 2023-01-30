@@ -1,8 +1,8 @@
 [
   {
-    "name": "About Ocean Nouns",
-    "title": "Learn about Ocean Nouns",
-    "description": "Learn about the Ocean Nouns project, the ecosystem and community.",
+    "name": "About OceanNouns",
+    "title": "Learn about OceanNouns",
+    "description": "Learn about the OceanNouns project, the ecosystem and community.",
     "defaultOpen": true,
     "current": false,
     "children": [
@@ -25,7 +25,7 @@
   },
   {
     "name": "For Builders",
-    "title": "Build with Ocean Nouns",
+    "title": "Build with OceanNouns",
     "description": "Access design assets, codebase and more resources.",
     "current": false,
     "defaultOpen": true,
@@ -55,7 +55,7 @@
   {
     "name": "Get Funding",
     "title": "Get Funded",
-    "description": "Learn about getting funded by Ocean Nouns and apply.",
+    "description": "Learn about getting funded by OceanNouns and apply.",
     "current": false,
     "defaultOpen": true,
     "children": [
@@ -84,7 +84,7 @@
   {
     "name": "Community",
     "title": "Community",
-    "description": "Meet the growing list of projects and members of the Ocean Nouns ecosystem.",
+    "description": "Meet the growing list of projects and members of the OceanNouns ecosystem.",
     "current": false,
     "defaultOpen": true,
     "children": [

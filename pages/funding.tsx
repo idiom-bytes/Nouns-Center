@@ -46,7 +46,7 @@ const funding = [
     link: '/funding/smallgrants',
     linkText: 'Request a grant',
     tagline:
-      'Creators who have been given a grant from Ocean Nouns DAO or received retroactive funding for proliferating Ocean Nouns.',
+      'Creators who have been given a grant from OceanNouns DAO or received retroactive funding for proliferating OceanNouns.',
     textColor: 'text-[#028940]',
     bgColor: 'bg-[#028940]',
     img: 'sml.png',
@@ -76,7 +76,7 @@ const funding = [
     link: '/funding/proposals',
     linkText: 'Learn more',
     tagline:
-      'Resources allocated for the long-term growth of the Ocean Nouns project. Larger in scope and undergo more scrutiny.',
+      'Resources allocated for the long-term growth of the OceanNouns project. Larger in scope and undergo more scrutiny.',
     textColor: 'text-[#E5284A]',
     bgColor: 'bg-[#E5284A]',
     img: 'lg.png',
@@ -138,10 +138,10 @@ const Funding = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Funding | Ocean Nouns Center" />
+        <Header title="Funding | OceanNouns Center" />
         <Title title="Funding" />
 
-        <Subheader body="Looking to get funding for an Ocean Nouns project? There are many ways to go about doing so! Below you can compare the different avenues. It's important to take in to consideration project scope and timeline." />
+        <Subheader body="Looking to get funding for an OceanNouns project? There are many ways to go about doing so! Below you can compare the different avenues. It's important to take in to consideration project scope and timeline." />
       </PageHeader>
 
       <PageContent>

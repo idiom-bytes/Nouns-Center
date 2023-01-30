@@ -5,7 +5,7 @@ import Title from '../components/Title';
 const Tools = () => {
   return (
     <div>
-      <Header title="Tools | Nouns Center" />
+      <Header title="Tools | OceanNouns Center" />
       <Title title="Tools" />
     </div>
   );

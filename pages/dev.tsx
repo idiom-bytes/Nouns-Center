@@ -10,10 +10,10 @@ const Dev = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Dev | Nouns Center" />
+        <Header title="Dev | OceanNouns Center" />
         <Title title="Dev Resources" />
 
-        <Subheader body="You'll find a list of technical resources & docs about working with Nouns as well as a link to our Github repos. If there's a question you have feel free to click the button and submit via Github Discussions." />
+        <Subheader body="You'll find a list of technical resources & docs about working with OceanNouns as well as a link to our Github repos. If there's a question you have feel free to click the button and submit via Github Discussions." />
       </PageHeader>
 
       <PageContent>

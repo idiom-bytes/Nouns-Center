@@ -5,7 +5,7 @@ import Title from '../components/Title';
 const Sponsor = () => {
   return (
     <div>
-      <Header title="Sponsor | Nouns Center" />
+      <Header title="Sponsor | OceanNouns Center" />
       <Title title="Sponsor" />
     </div>
   );

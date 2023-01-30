@@ -6,7 +6,7 @@ import { NotionRenderer } from 'react-notion';
 import PageContent from '../components/Layout/PageContent';
 import PageHeader from '../components/Layout/PageHeader';
 
-const introToNounsNotionPage = '90485892d0c54ef1be05abf0ecfc18da';
+const introToNounsNotionPage = '7cb92d7ffa2a4e5ca9973dbeba0e63ae';
 
 export async function getStaticProps() {
   let data = [];
@@ -32,12 +32,12 @@ const Intro = ({ docsData }) => {
   return docsData ? (
     <>
       <PageHeader>
-        <Header title="Intro | Nouns Center" />
+        <Header title="Intro | OceanNouns" />
         <Title title="Intro" />
 
         <Subheader
-          title="A Brief Introduction to Ocean Nouns"
-          body="If you ever wanted to know what Ocean Nouns is all about, this is a great place to start."
+          title="A Brief Introduction to OceanNouns"
+          body="If you ever wanted to know what OceanNouns is all about, this is a great place to start."
         />
       </PageHeader>
 
