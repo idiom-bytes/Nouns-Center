@@ -32,7 +32,7 @@ const Talent = props => {
   return (
     <>
       <PageHeader>
-        <Header title="Talent | Nouns Center" />
+        <Header title="Talent | OceanNouns Center" />
         <Title title="Talent" />
 
         <Subheader body="A place to connect with community members. You can view someone's skillset and easily connect with them. If you'd like to be added to this list, or are on it and would like to be removed, click the button to send a request." />
