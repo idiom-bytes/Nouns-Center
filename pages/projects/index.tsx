@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from 'react';
 import Header from '../../components/Header';
-import projects from './projects.json';
+import projectsFromJSON from './projects.json';
 import XSmall from '../../components/Project/XSmall';
 import Title from '../../components/Title';
 import Subheader from '../../components/Subheader';
@@ -11,19 +11,20 @@ import PageHeader from '../../components/Layout/PageHeader';
 import Button from '../../components/common/Button';
 import { fetchProjectFormData } from '../../utils/project-form-data-fetching';
 
-export const getStaticProps = async () => {
-  const projects = await fetchProjectFormData();
+// export const getStaticProps = async () => {
+//   const projects = await fetchProjectFormData();
 
-  return {
-    props: {
-      projects,
-    },
-    revalidate: 60,
-  };
-};
+//   return {
+//     props: {
+//       projects,
+//     },
+//     revalidate: 60,
+//   };
+// };
 
 const Projects = props => {
-  const [filteredProjects, setFilteredProjects] = useState(projects.concat(props.projects));
+  // const [filteredProjects, setFilteredProjects] = useState(projectsFromJSON.concat(props.projects));
+  const [filteredProjects, setFilteredProjects] = useState(projectsFromJSON);
   const [projectsText, setProjectsText] = useState('projects and counting!');
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
@@ -74,10 +75,10 @@ const Projects = props => {
     if (query.category) {
       setIsLoading(true);
       if (query.category === 'all') {
-        setFilteredProjects(projects);
+        setFilteredProjects(projectsFromJSON);
         setIsLoading(false);
       } else {
-        setFilteredProjects(projects.filter(p => p.category.includes(query.category as string)));
+        setFilteredProjects(projectsFromJSON.filter(p => p.category.includes(query.category as string)));
         setIsLoading(false);
       }
     }

@@ -56,6 +56,8 @@ FORM >>> You can create a talent form in www.addressform.io to ingest more commu
 - update `talent-form-data-fetching.js` to update the talent_form
 - Potential improvement => move TALENT_FORM_ID to .env
 - This enables exterior people to submit talent
+- The talent from form + talent.json are concact and then displayed
+- The talent from notion is not added to this
 
 Example: Talent Form
 - name (short string)
@@ -80,6 +82,8 @@ creator => Creator(s) : string
 url => link : string
 image => Thumbnail : string
 category => categories : string
+
+
 
 
 

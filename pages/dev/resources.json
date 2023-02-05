@@ -1,91 +1,28 @@
 [
   {
-    "name": "Nouns Protocol",
-    "imageUrl": "protocol.png",
-    "bio": "Suite of smart contracts that generates and auctions a Noun every day. The protocol serves as an open standard for generative art - Nouns.",
-    "url": "https://nouns.notion.site/Noun-Protocol-32e4f0bf74fe433e927e2ea35e52a507",
-    "btnText": "Read More",
-    "notion": true,
-    "notionId": "32e4f0bf74fe433e927e2ea35e52a507"
-  },
-  {
-    "name": "Github Org",
-    "imageUrl": "github.png",
-    "bio": "Official GitHub of the Nouns Foundation.",
-    "url": "https://github.com/nounsDAO",
-    "btnText": "Go to Github",
+    "name": "Project Overview",
+    "imageUrl": "nounish_oceanish.jpg",
+    "bio": "All the original dev resources that can be found in Nouns.Center.",
+    "url": "https://docs.google.com/presentation/d/1DZHKLbfOjz_5jR7qdZfC_ol-j0nPi95V1zbkCbaOiOM/edit?usp=sharing",
+    "btnText": "View Slides",
     "notion": false,
     "notionId": ""
   },
   {
-    "name": "Nouns Frontend Stream",
-    "imageUrl": "stream.png",
-    "bio": "Going over the Nouns Frontend and deploying to IPFS.",
-    "url": "https://nounish.tv/w/wetmy9J6oW4C4Pao5ZjnZk",
-    "btnText": "Watch Stream",
+    "name": "Traits Planner",
+    "imageUrl": "ocean_nouns_traits.png",
+    "bio": "All the original dev resources that can be found in Nouns.Center.",
+    "url": "https://docs.google.com/spreadsheets/d/14m0RWnIwcDXpFKL1z363XDwSxXbOUQBBGzK_en1C8tc/edit?usp=sharing",
+    "btnText": "View Traits",
     "notion": false,
     "notionId": ""
   },
   {
-    "name": "Smart Contract Architecture",
+    "name": "Noun Resources",
     "imageUrl": "smartcontract.png",
-    "bio": "NounsToken, NounsSeeder, NounsDescriptor, NounsAuctionHouse, NounsDAOExecutor, NounsDAOProxy, and NounsDAOLogicV1.",
-    "url": "https://nouns.notion.site/Smart-contract-architecture-eb6e3e2c9c5f49feb09b5bad26a6001c",
+    "bio": "All the original dev resources that can be found in Nouns.Center.",
+    "url": "https://nouns.center/dev",
     "btnText": "Read More",
-    "notion": true,
-    "notionId": "eb6e3e2c9c5f49feb09b5bad26a6001c"
-  },
-  {
-    "name": "Noun Pics",
-    "imageUrl": "nounpics.png",
-    "bio": "Get a Noun image by ID or a tile of the Nouns owned by an Address or ENS Name, including delegation.",
-    "url": "https://noun.pics/",
-    "btnText": "View API",
-    "notion": false,
-    "notionId": ""
-  },
-  {
-    "name": "Noun API",
-    "imageUrl": "nounapi.png",
-    "bio": "A free service that enables builders to integrate Nouns into their projects with only a url.",
-    "url": "https://noun-api.com/",
-    "btnText": "Read Docs",
-    "notion": false,
-    "notionId": ""
-  },
-  {
-    "name": "Subgraph",
-    "imageUrl": "subgraph.png",
-    "bio": "Subgraph for Nouns proposals & auctions.",
-    "url": "https://thegraph.com/hosted-service/subgraph/nounsdao/nouns-subgraph",
-    "btnText": "Read More",
-    "notion": false,
-    "notionId": ""
-  },
-  {
-    "name": "Generate on-chain Noun",
-    "imageUrl": "generate.png",
-    "bio": "Explore how to generate a pseudo-random noun, fully on-chain, with just two contract calls.",
-    "url": "https://nouns.notion.site/Generate-a-random-Noun-on-chain-4235479b512741289ede4cd22954cffc",
-    "btnText": "Read More",
-    "notion": true,
-    "notionId": "4235479b512741289ede4cd22954cffc"
-  },
-  {
-    "name": "The Noun Crystal Ball",
-    "imageUrl": "crystal.png",
-    "bio": "What a Noun looks like is based on its Noun ID and the block before the auction was settled so we can predict what the next Noun will look like.",
-    "url": "https://observablehq.com/@gitblamecarrot/the-noun-crystal-ball",
-    "btnText": "Read More",
-    "notion": false,
-    "notionId": ""
-  },
-  {
-    "name": "Dev FAQ",
-    "imageUrl": "discussions.png",
-    "bio": "Ask technical questions you're wondering about, share ideas, or engage with other community members.",
-    "url": "https://github.com/nounsDAO/nouns-monorepo/discussions",
-    "btnText": "View FAQs",
     "notion": false,
     "notionId": ""
   }
