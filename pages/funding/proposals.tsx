@@ -61,8 +61,8 @@ const proposals = () => {
         <Title title="Funding: Proposals" />
 
         <Subheader
-          title="For Projects needing 1-5Ξ"
-          body="Resources allocated for the long-term growth of the OceanNouns project. Larger in scope and undergo more scrutiny."
+          title="For Projects needing 0-2Ξ"
+          body="Resources allocated for the long-term growth of the OceanNouns project. All proposals currently go through the same process."
         />
       </PageHeader>
 
@@ -120,7 +120,7 @@ const proposals = () => {
           <TextContent title="Post on Discourse">
             <p>
               Once you have all the details nailed down you can post your proposal on{' '}
-              <Link text={'Discourse'} url={'https://discourse.nouns.wtf/'} leavesPage={true} />, a
+              <Link text={'Ocean Port'} url={'https://discourse.nouns.wtf/'} leavesPage={true} />, a
               forum for OceanNouns proposal ideas. At the top click the <b>&quot;+ New Topic&quot;</b>{' '}
               button and post your idea. Be sure to prefix the title with{' '}
               <b>&quot;Proposal: &quot;</b> so that it stands out as a proposal request when others

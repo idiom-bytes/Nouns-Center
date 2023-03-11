@@ -15,11 +15,6 @@
         "name": "History",
         "link": "/history",
         "external": false
-      },
-      {
-        "name": "Groups",
-        "link": "/groups",
-        "external": false
       }
     ]
   },
@@ -60,21 +55,6 @@
     "defaultOpen": true,
     "children": [
       {
-        "name": "Overview",
-        "link": "/funding",
-        "external": false
-      },
-      {
-        "name": "Small Grants",
-        "link": "/funding/smallgrants",
-        "external": false
-      },
-      {
-        "name": "Prop House",
-        "link": "/funding/prophouse",
-        "external": false
-      },
-      {
         "name": "Proposals",
         "link": "/funding/proposals",
         "external": false
@@ -91,6 +71,11 @@
       {
         "name": "Projects",
         "link": "/projects",
+        "external": false
+      },
+      {
+        "name": "Groups",
+        "link": "/groups",
         "external": false
       },
       {

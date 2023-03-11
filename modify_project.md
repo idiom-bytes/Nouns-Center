@@ -1,6 +1,58 @@
 # Nouns.Center
 This MD will guide you in update Nouns.Center
 
+## Page Types
+- Groups
+  - List of groups w/ links
+- Resources/Asests/Learn
+  - 2xN Grid of links
+- Intro
+  - Notion hookup
+- Overview/Proposals/Etc...
+  - HTML web page
+- Github/DevFAQ
+  - Link directly to separate page
+
+## Ocean Mappings
+Discourse => Use Port
+Discord => Use OceanDAO
+Github => Point to idiom-bytes/oceannouns/README.md
+  - points to oceannouns.wtf
+  - points to oceannouns.center
+
+For Builders
+- Nounish Resources
+  - Nouns.Center
+  - Assets from Ocean Nouns
+  - Project Slides
+  - Nouns Traits
+- Oceanish Resources
+  - Documentation for Ocean
+  - Workshops
+  - Readmes
+  - Ocean Academy
+  - VotDE
+  - Learn / Youtube videos
+
+
+## Todo
+- [x] Intro
+- [x] History
+- [x] Configure projects page
+- [x] Funding - Disable funding pages and maintain only core funding path.
+- [ ] Funding - Setup discourse.oceannouns.wtf to point at port.oceanprotocol.com
+- [ ] Funding - Setup a Ocean Nouns forum inside port.oceanprotocol.com
+- [ ] Funding - Setup a Ocean Nouns discord channel inside discord.oceanprotocol.com
+- [] Change groups to use form
+- [] Configure projects form
+- [] Configure talent form
+- [] Setup asests page
+- [] Github - Link to OceanNouns.Center README.md <<How to contribute to OceanNouns DAO>>
+- [] Dev FAQ - Link to FAQ.md <<OceanNouns FAQ>>
+- [] Dev Resources - Link to dev resources for <OceanNouns FAQ>
+- [ ] Deploy oceannouns.wtf, oceannouns subgraph, api, and other services required
+- [ ] Community->Events page
+
 ## Update root pages
 ===============================
 The /pages/ project structure must be updated.
@@ -24,8 +76,10 @@ Below are each page, and what you'll need to adjust.
 - Use the same Notion pages that were created from LilNouns
 - You'll have to create the Groups and Contributor Notion tables
 - You can then update the Notion link on top of the page to point towards the Group table
+
 FORM >>> You can create a group form in www.addressform.io to ingest more groups <<< define form fields/parameters could be outlined in a separate readme >>>
 - This enables exterior people to submit projects
+- This doesn't seem to be hooked up in code...
 
 Example: Group Form
 - Name (short string)
