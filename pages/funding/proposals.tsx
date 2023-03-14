@@ -30,8 +30,8 @@ const proposals = () => {
               you&apos;re unsure if opening a proposal is the correct path to take for your idea to
               receive funding, please refer back to this guide to make sure you&apos;re
               in the correct place. If your idea is still in a nascent stage or the details
-              haven&apos;t been fleshed out, you can get feedback in the #proposal-ideas channel in the {' '}
-              <Link text="OceanNouns Discord" url="https://discord.gg/TnXjkR5" leavesPage={true} />
+              haven&apos;t been fleshed out, you can get feedback in the #ocean-nouns channel in the {' '}
+              <Link text="Ocean Protocol Discord" url="https://discord.gg/TnXjkR5" leavesPage={true} />
               .
             </p>
           </TextContent>
