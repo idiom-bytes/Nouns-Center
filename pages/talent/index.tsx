@@ -9,8 +9,8 @@ import { getRandomNounPic } from '../../utils';
 import Subheader from '../../components/Subheader';
 import PageContent from '../../components/Layout/PageContent';
 import PageHeader from '../../components/Layout/PageHeader';
-import Button from '../../components/common/Button';
-import { TALENT_FORM_ID } from '../../utils/talent-form-data-fetching';
+// import Button from '../../components/common/Button';
+// import { TALENT_FORM_ID } from '../../utils/talent-form-data-fetching';
 
 // export const getServerSideProps = async () => {
 //   let talentDataFromAPI = [];
