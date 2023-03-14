@@ -37,7 +37,7 @@ const Talent = () => {
         <Title title="Talent" />
 
         <Subheader body="A place to connect with community members. You can view someone's skillset and easily connect with them. If you'd like to be added to this list, or are on it and would like to be removed, click the button to send a request." />
-        <Button text="Add yourself" link={`https://www.addressform.io/form/${TALENT_FORM_ID}`} />
+        {/* <Button text="Add yourself" link={`https://www.addressform.io/form/${TALENT_FORM_ID}`} /> */}
       </PageHeader>
 
       <PageContent>

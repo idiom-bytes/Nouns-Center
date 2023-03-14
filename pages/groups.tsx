@@ -40,7 +40,7 @@ const Groups = ({ groups }) => {
           title="Looking for a community?"
           body="A list of all the groups in the OceanNouns universe including their description and Discord invite link. Don't see your group here? Add it to the backlog, and we'll get it up as soon as possbile."
         />
-        <Button text="Add your group" link="https://www.addressform.io/f/groups" />
+        {/* <Button text="Add your group" link="https://www.addressform.io/f/groups" /> */}
       </PageHeader>
 
       <PageContent>

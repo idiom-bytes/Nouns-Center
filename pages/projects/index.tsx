@@ -100,10 +100,10 @@ const Projects = () => {
           title={`${filteredProjects.length} ${projectsText}`}
           body="Here's a comprehensive list of all the projects in the OceanNounsDAO ecosystem. If you don't see your project here and would like to add it, click the button to have it added to the backlog. The site is updated with new projects once a week."
         />
-        <Button
+        {/* <Button
           link="https://www.addressform.io/form/9e6bc6c2-0f0d-4420-b66e-0d416a5fe73a"
           text="Submit your project"
-        />
+        /> */}
       </PageHeader>
       <PageContent>
         <div className="mb-4">
