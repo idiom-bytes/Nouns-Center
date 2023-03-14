@@ -9,7 +9,6 @@ import { useRouter } from 'next/router';
 import PageContent from '../../components/Layout/PageContent';
 import PageHeader from '../../components/Layout/PageHeader';
 import Button from '../../components/common/Button';
-import { fetchProjectFormData } from '../../utils/project-form-data-fetching';
 
 // export const getStaticProps = async () => {
 //   const projects = await fetchProjectFormData();
@@ -22,7 +21,7 @@ import { fetchProjectFormData } from '../../utils/project-form-data-fetching';
 //   };
 // };
 
-const Projects = props => {
+const Projects = () => {
   // const [filteredProjects, setFilteredProjects] = useState(projectsFromJSON.concat(props.projects));
   const [filteredProjects, setFilteredProjects] = useState(projectsFromJSON);
   const [projectsText, setProjectsText] = useState('projects and counting!');

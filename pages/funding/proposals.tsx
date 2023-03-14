@@ -4,54 +4,10 @@ import Header from '../../components/Header';
 import PageContent from '../../components/Layout/PageContent';
 import PageHeader from '../../components/Layout/PageHeader';
 import Title from '../../components/Title';
-import Button from '../../components/common/Button';
 import Subheader from '../../components/Subheader';
 import Link from '../../components/Link';
 import Status from '../../components/common/Status';
 import TextContent from '../../components/Layout/TextContent';
-
-const props = [
-  {
-    title: 'DAO Residency',
-    href: 'https://nouns.wtf/vote/17',
-    description:
-      'Fund a designer, engineer, and community lead in residency to help push forward new projects.',
-    date: 'Nov 28, 2021',
-    imageUrl: 'https://pbs.twimg.com/media/FJcno3EWUAUNAhj?format=jpg&name=large',
-    author: {
-      name: 'Brian',
-      href: 'https://twitter.com/pbrianandj',
-      imageUrl: 'https://pbs.twimg.com/profile_images/1556491192480608256/HdVUUIeg_400x400.png',
-    },
-  },
-
-  {
-    title: 'Nouns Marketplace',
-    href: 'https://nouns.wtf/vote/46',
-    description: 'Create a marketplace for Nouns and their extension projects.',
-    date: 'April 2, 2022',
-    imageUrl: 'https://jacob.energy/img/hyper.png',
-    author: {
-      name: 'Jacob',
-      href: 'https://twitter.com/js_horne',
-      imageUrl: 'https://pbs.twimg.com/profile_images/1558913916486426625/lgv0PBh__400x400.jpg',
-    },
-  },
-  {
-    title: "Children's Book",
-    href: 'https://nouns.wtf/vote/83',
-    description:
-      'Create an illustrated book that will open a path to the traditional publishing world for Nouns.',
-    date: 'May 26, 2022',
-    imageUrl:
-      'https://cdn.discordapp.com/attachments/979401162358931596/979401735648997496/unknown.png',
-    author: {
-      name: 'Brandon Mighty',
-      href: 'https://twitter.com/brandonmighty',
-      imageUrl: 'https://pbs.twimg.com/profile_images/1511768684276109316/vBfvqz3y_400x400.jpg',
-    },
-  },
-];
 
 const proposals = () => {
   return (
