@@ -29,8 +29,8 @@ const Hero = () => {
               Welcome to OceanNouns
             </h1>
             <p className="text-black m-auto font-semibold xs:text-[14px] sm:text-2xl text-center w-full sm:w-[800px]">
-              The knowledge center &#38; resource hub for OceanNouns DAO. Learn about the project, the
-              community, how to get involved and funded.
+              A knowledge and resource center for the project, the
+              community, how to get involved,  and funded.
             </p>
 
             {/* <div className="mt-6 sm:mb-14" id="autocomplete"></div> */}

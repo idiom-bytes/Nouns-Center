@@ -1,8 +1,8 @@
 [
   {
-    "name": "About OceanNouns",
-    "title": "Learn about OceanNouns",
-    "description": "Learn about the OceanNouns project, the ecosystem and community.",
+    "name": "About",
+    "title": "About OceanNouns",
+    "description": "Learn about the project, it's history, and more.",
     "defaultOpen": true,
     "current": false,
     "children": [
@@ -19,36 +19,26 @@
     ]
   },
   {
-    "name": "For Builders",
+    "name": "Build",
     "title": "Build with OceanNouns",
-    "description": "Access design assets, codebase and more resources.",
+    "description": "Find project assets, traits, codebase and more resources.",
     "current": false,
     "defaultOpen": true,
     "children": [
       {
-        "name": "Assets",
-        "link": "/assets",
+        "name": "Resources",
+        "link": "/resources",
         "external": false
       },
       {
-        "name": "GitHub",
-        "link": "https://github.com/idiom-bytes/nouns-monorepo",
-        "external": true
-      },
-      {
-        "name": "Dev FAQ",
-        "link": "https://github.com/nounsDAO/nouns-monorepo/discussions",
-        "external": true
-      },
-      {
-        "name": "Dev Resources",
-        "link": "/dev",
+        "name": "Blog",
+        "link": "/blog",
         "external": false
       }
     ]
   },
   {
-    "name": "Get Funding",
+    "name": "Funding",
     "title": "Get Funded",
     "description": "Learn about getting funded by OceanNouns and apply.",
     "current": false,
@@ -64,7 +54,7 @@
   {
     "name": "Community",
     "title": "Community",
-    "description": "Meet the growing list of projects and members of the OceanNouns ecosystem.",
+    "description": "Discover projects, groups, and talent building on the OceanNouns ecosystem.",
     "current": false,
     "defaultOpen": true,
     "children": [
@@ -81,11 +71,6 @@
       {
         "name": "Talent",
         "link": "/talent",
-        "external": false
-      },
-      {
-        "name": "Learn",
-        "link": "/learn",
         "external": false
       }
     ]

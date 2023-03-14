@@ -61,7 +61,7 @@ const proposals = () => {
         <Title title="Funding: Proposals" />
 
         <Subheader
-          title="For Projects needing 0-2Ξ"
+          title="For Projects needing 0-5Ξ"
           body="Resources allocated for the long-term growth of the OceanNouns project. All proposals currently go through the same process."
         />
       </PageHeader>
@@ -71,17 +71,10 @@ const proposals = () => {
           <TextContent title="Overview">
             <p>
               This guide will walk you through the steps creating an OceanNouns DAO proposal. If
-              you&apos;re unsure if opening a proposal is the correct path to take for your ideato
-              receive funding, please refer back to{' '}
-              <Link text="this guide" url="/funding" leavesPage={false} /> to make sure you&apos;re
+              you&apos;re unsure if opening a proposal is the correct path to take for your idea to
+              receive funding, please refer back to this guide to make sure you&apos;re
               in the correct place. If your idea is still in a nascent stage or the details
-              haven&apos;t been fleshed out, you can get feedback in the{' '}
-              <Link
-                text="#proposal-ideas"
-                url="https://github.com/oceanprotocol/oceandao/wiki/OceanDAO-Tech-Earmarks"
-                leavesPage={true}
-              />{' '}
-              channel in the{' '}
+              haven&apos;t been fleshed out, you can get feedback in the #proposal-ideas channel in the {' '}
               <Link text="OceanNouns Discord" url="https://discord.gg/TnXjkR5" leavesPage={true} />
               .
             </p>
@@ -93,14 +86,29 @@ const proposals = () => {
               you don&apos;t own an OceanNoun yourself then you&apos;ll have to get a sponsor to open the
               proposal for you. You can connect with an OceanNouner sponsor either by waiting on feedback
               on your Discourse post or networking in the Discord.
+
+              If you have raised less than 5Ξ for your project through OceanNouns, you are elligible to apply.
             </p>
           </TextContent>
 
           <TextContent title="How to write a prop">
+            <p>
+              In OceanNouns there are 2 type of proposals that can be submitted. <b>Nounish</b> proposals
+              focus on proliferating OceanNouns, bringing more OceanNouners to the ecosystem, helping
+              to improve the quantity and quality of proposals. <b>Oceanish</b> proposals focus on proliferating
+              the Ocean Protocol stack, building new dapps, algorithms, and web3 native lego blocks.
+            </p>
+            
+            <img
+              className="border-2 mt-3 rounded-xl p-2 bg-white shadow-md"
+              src="/assets/nounish_oceanish.jpg"
+              alt="proposal_gradient"
+            />
+
             <p>Your proposal should effectively communicate:</p>
             <ul className="list-disc list-inside pb-4">
               <li className="ml-6">What is the project</li>
-              <li className="ml-6">How will it proliferate OceanNouns</li>
+              <li className="ml-6">Will it proliferate OceanNouns, or the Ocean Stack?</li>
               <li className="ml-6">How much funding you&apos;ll need</li>
               <li className="ml-6">How the funds break down</li>
               <li className="ml-6">What are the success metrics</li>
@@ -119,8 +127,7 @@ const proposals = () => {
 
           <TextContent title="Post on Discourse">
             <p>
-              Once you have all the details nailed down you can post your proposal on{' '}
-              <Link text={'Ocean Port'} url={'https://discourse.nouns.wtf/'} leavesPage={true} />, a
+              Once you have all the details nailed down you will be able to post your proposal on our Discourse server, a
               forum for OceanNouns proposal ideas. At the top click the <b>&quot;+ New Topic&quot;</b>{' '}
               button and post your idea. Be sure to prefix the title with{' '}
               <b>&quot;Proposal: &quot;</b> so that it stands out as a proposal request when others
@@ -163,8 +170,7 @@ const proposals = () => {
               the next 3 days. Barring cancellation or a veto, the proposal will either have{' '}
               <Status status="succeeded" bgColor="bg-[#43b369]" /> or been{' '}
               <Status status="defeated" bgColor="bg-[#e40536]" />. If it succeeds, it will then have
-              to be manually queued by connecting your wallet to{' '}
-              <Link text="nouns.wtf/vote" url="https://nouns.wtf/vote" leavesPage={true} />, finding
+              to be manually queued by connecting your wallet to the offial OceanNouns website, finding
               the prop, and clicking the <b>&quot;Queue Proposal ⌐◨-◨&quot;</b> button. Anyone can
               do this and it will cost some gas. Then the status will be changed to{' '}
               <Status status="queued" bgColor="bg-black" /> and after 2 final days it will be{' '}

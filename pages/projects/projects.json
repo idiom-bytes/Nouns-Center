@@ -14,5 +14,13 @@
     "url": "https://app.algovera.ai/",
     "image": "algovera.jpg",
     "category": ["project"]
+  },
+  {
+    "title": "Autobots",
+    "description": "Data Farming intelligence.",
+    "creator": ["autobot"],
+    "url": "https://autobotocean.com/",
+    "image": "autobot.jpg",
+    "category": ["project"]
   }
 ]

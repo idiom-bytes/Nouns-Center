@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import Title from '../../components/Title';
 import { v4 as uuidv4 } from 'uuid';
-import assets from './assets.json';
+import assets from './resources.json';
 import Subheader from '../../components/Subheader';
 import PageHeader from '../../components/Layout/PageHeader';
 import PageContent from '../../components/Layout/PageContent';
@@ -13,12 +13,12 @@ const Assets = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Assets | OceanNouns Center" />
-        <Title title="Assets" />
+        <Header title="Resources | OceanNouns Center" />
+        <Title title="Resources" />
 
         <Subheader
           title="Resource Hub"
-          body="Repository of trait assets, fonts, and other resources you may need to work with OceanNouns. If you're still looking for something that's not here click the button and let me know."
+          body="Project resources. Original assets, project overview, traits spreadsheet and more."
         />
       </PageHeader>
 
