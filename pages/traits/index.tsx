@@ -23,7 +23,7 @@ const Traits = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Traits | Nouns Center" />
+        <Header title="Traits | OceanNouns Center" />
         <Title title="Traits" />
 
         <Subheader

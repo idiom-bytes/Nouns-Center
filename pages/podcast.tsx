@@ -12,7 +12,7 @@ const Podcast = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Podcast | Nouns Center" />
+        <Header title="Podcast | OceanNouns Center" />
         <Title title="Podcast" />
 
         <Subheader

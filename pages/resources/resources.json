@@ -1,0 +1,32 @@
+[
+  {
+    "title": "OceanNouns Project",
+    "image": "nounish_oceanish.jpg",
+    "file": "https://docs.google.com/presentation/d/1DZHKLbfOjz_5jR7qdZfC_ol-j0nPi95V1zbkCbaOiOM/edit?usp=sharing",
+    "download": false
+  },
+  {
+    "title": "OceanNouns Traits",
+    "image": "ocean_nouns_traits.png",
+    "file": "https://docs.google.com/spreadsheets/d/14m0RWnIwcDXpFKL1z363XDwSxXbOUQBBGzK_en1C8tc/edit?usp=sharing",
+    "download": false
+  },
+  {
+    "title": "OceanNouns Github",
+    "image": "github-nounsrepo.png",
+    "file": "https://github.com/idiom-bytes/nouns-monorepo",
+    "download": false
+  },
+  {
+    "title": "Original Assets",
+    "image": "figma.png",
+    "file": "https://nouns.center/assets",
+    "download": false
+  },
+  {
+    "title": "Original Resources",
+    "image": "smartcontract.png",
+    "file": "https://nouns.center/dev",
+    "download": false
+  }
+]

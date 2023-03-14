@@ -10,7 +10,7 @@ const Custom404 = () => {
   return (
     <>
       <PageHeader>
-        <Header title="404 | Nouns Center" />
+        <Header title="404 | OceanNouns Center" />
         <Title title="404: Page Not Found" />
       </PageHeader>
 

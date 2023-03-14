@@ -26,11 +26,11 @@ const Hero = () => {
           <div className="text-center flex flex-col justify-between h-full pb-5 sm:pb-10">
             <img className="m-auto mt-5 w-1/3 sm:w-52	 " src="/home/noggles.png" alt="noggles" />
             <h1 className="font-extrabold text-3xl sm:text-5xl md:text-[80px] text-nouns tracking-wider w-full xs:pt-6 sm:pt-12 xs:pb-3 sm:pb-6">
-              Welcome to Nouns Center
+              Welcome to OceanNouns
             </h1>
             <p className="text-black m-auto font-semibold xs:text-[14px] sm:text-2xl text-center w-full sm:w-[800px]">
-              The knowledge center &#38; resource hub for Nouns DAO. Learn about the project, the
-              community and ways to get involved and funded.
+              A knowledge and resource center for the project, the
+              community, how to get involved,  and funded.
             </p>
 
             {/* <div className="mt-6 sm:mb-14" id="autocomplete"></div> */}

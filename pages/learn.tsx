@@ -11,12 +11,12 @@ const Learn = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Learn | Nouns Center" />
+        <Header title="Learn | OceanNouns Center" />
         <Title title="Learn" />
 
         <Subheader
           title="Tooling Calls"
-          body="A weekly meeting inside of the Nouns Discord server where project founders demo & discuss web3 oriented tools with our community. Recorded VOD's of each demo are below."
+          body="A weekly meeting inside of the OceanNouns Discord server where project founders demo & discuss web3 oriented tools with our community. Recorded VOD's of each demo are below."
         />
         <Button
           link="https://www.youtube.com/channel/UCsmsHn9aAaseHlRjXr7rgrg"

@@ -5,7 +5,7 @@ import Title from '../components/Title';
 const Media = () => {
   return (
     <div>
-      <Header title="Media | Nouns Center" />
+      <Header title="Media | OceanNouns Center" />
       <Title title="Media" />
     </div>
   );

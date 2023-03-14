@@ -12,27 +12,28 @@ import PageHeader from '../../components/Layout/PageHeader';
 import Button from '../../components/common/Button';
 import { fetchTalentFormData, TALENT_FORM_ID } from '../../utils/talent-form-data-fetching';
 
-export const getServerSideProps = async () => {
-  let talentDataFromAPI = [];
-  try {
-    talentDataFromAPI = await fetchTalentFormData();
-  } catch (e) {
-    console.log(e);
-  }
+// export const getServerSideProps = async () => {
+//   let talentDataFromAPI = [];
+//   try {
+//     talentDataFromAPI = await fetchTalentFormData();
+//   } catch (e) {
+//     console.log(e);
+//   }
 
-  return {
-    props: { talentFromServer: talentDataFromAPI },
-  };
-};
+//   return {
+//     props: { talentFromServer: talentDataFromAPI },
+//   };
+// };
 
 const Talent = props => {
-  const { talentFromServer } = props;
+  // const { talentFromServer } = props;
 
-  const talent = talentFromJSON.concat(talentFromServer);
+  const talent = talentFromJSON;
+  
   return (
     <>
       <PageHeader>
-        <Header title="Talent | Nouns Center" />
+        <Header title="Talent | OceanNouns Center" />
         <Title title="Talent" />
 
         <Subheader body="A place to connect with community members. You can view someone's skillset and easily connect with them. If you'd like to be added to this list, or are on it and would like to be removed, click the button to send a request." />

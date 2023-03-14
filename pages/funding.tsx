@@ -38,24 +38,24 @@ export async function getStaticProps() {
 const funding = [
   {
     source: 'Small Grants',
-    range: '0.1 - 25',
-    totalEth: 167,
-    recipients: 84,
+    range: '0.1 - 0.5',
+    totalEth: 0,
+    recipients: 0,
     recipientType: 'projects',
     distributed: 'given to',
     link: '/funding/smallgrants',
     linkText: 'Request a grant',
     tagline:
-      'Creators who have either been given a grant from NounsDAO or received retroactive funding for proliferating Nouns.',
+      'Creators who have been given a grant from OceanNouns DAO or received retroactive funding for proliferating OceanNouns.',
     textColor: 'text-[#028940]',
     bgColor: 'bg-[#028940]',
     img: 'sml.png',
   },
   {
     source: 'Prop House',
-    range: '2 - 25',
-    totalEth: 220,
-    recipients: 107,
+    range: '0.5 - 1.0',
+    totalEth: 0,
+    recipients: 0,
     recipientType: 'winners',
     distributed: 'awarded to ',
     link: '/funding/prophouse',
@@ -68,15 +68,15 @@ const funding = [
   },
   {
     source: 'Proposals',
-    range: '10 - 1,000',
-    totalEth: 3330,
-    recipients: 67,
+    range: '1.0 - 5.0',
+    totalEth: 0,
+    recipients: 0,
     recipientType: 'props',
     distributed: 'across',
     link: '/funding/proposals',
     linkText: 'Learn more',
     tagline:
-      'Resources allocated for the long-term growth of the Nouns project. Larger in scope and undergo more scrutiny.',
+      'Resources allocated for the long-term growth of the OceanNouns project. Larger in scope and undergo more scrutiny.',
     textColor: 'text-[#E5284A]',
     bgColor: 'bg-[#E5284A]',
     img: 'lg.png',
@@ -138,10 +138,10 @@ const Funding = () => {
   return (
     <>
       <PageHeader>
-        <Header title="Funding | Nouns Center" />
+        <Header title="Funding | OceanNouns Center" />
         <Title title="Funding" />
 
-        <Subheader body="Looking to get funding for a Nounish project? There are many ways to go about doing so! Below you can compare the different avenues. It's important to take in to consideration project scope and timeline." />
+        <Subheader body="Looking to get funding for an OceanNouns project? There are many ways to go about doing so! Below you can compare the different avenues. It's important to take in to consideration project scope and timeline." />
       </PageHeader>
 
       <PageContent>

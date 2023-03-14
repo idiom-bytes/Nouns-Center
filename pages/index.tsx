@@ -6,7 +6,7 @@ import Hero from '../components/Home/Hero';
 export default function Home() {
   return (
     <>
-      <Header title="Nouns Center" />
+      <Header title="OceanNouns Center" />
       <Hero />
     </>
   );

@@ -1,8 +1,8 @@
 [
   {
-    "name": "About Nouns",
-    "title": "Learn about Nouns",
-    "description": "Learn about the Nouns project, the ecosystem and community.",
+    "name": "About",
+    "title": "About OceanNouns",
+    "description": "Learn about the project, it's history, and more.",
     "defaultOpen": true,
     "current": false,
     "children": [
@@ -12,78 +12,38 @@
         "external": false
       },
       {
-        "name": "Traits",
-        "link": "/traits",
-        "external": false
-      },
-      {
         "name": "History",
         "link": "/history",
         "external": false
-      },
-      {
-        "name": "Groups",
-        "link": "/groups",
-        "external": false
       }
     ]
   },
   {
-    "name": "For Builders",
-    "title": "Build with Nouns",
-    "description": "Access design assets, codebase and more resources.",
+    "name": "Build",
+    "title": "Build with OceanNouns",
+    "description": "Find project assets, traits, codebase and more resources.",
     "current": false,
     "defaultOpen": true,
     "children": [
       {
-        "name": "Ideas",
-        "link": "/ideas",
+        "name": "Resources",
+        "link": "/resources",
         "external": false
       },
       {
-        "name": "Assets",
-        "link": "/assets",
-        "external": false
-      },
-      {
-        "name": "GitHub",
-        "link": "https://github.com/nounsDAO/nouns-monorepo",
-        "external": true
-      },
-      {
-        "name": "Dev FAQ",
-        "link": "https://github.com/nounsDAO/nouns-monorepo/discussions",
-        "external": true
-      },
-      {
-        "name": "Dev Resources",
-        "link": "/dev",
+        "name": "Blog",
+        "link": "/blog",
         "external": false
       }
     ]
   },
   {
-    "name": "Get Funding",
+    "name": "Funding",
     "title": "Get Funded",
-    "description": "Learn about getting funded by Nouns and apply.",
+    "description": "Learn about getting funded by OceanNouns and apply.",
     "current": false,
     "defaultOpen": true,
     "children": [
-      {
-        "name": "Overview",
-        "link": "/funding",
-        "external": false
-      },
-      {
-        "name": "Small Grants",
-        "link": "/funding/smallgrants",
-        "external": false
-      },
-      {
-        "name": "Prop House",
-        "link": "/funding/prophouse",
-        "external": false
-      },
       {
         "name": "Proposals",
         "link": "/funding/proposals",
@@ -94,7 +54,7 @@
   {
     "name": "Community",
     "title": "Community",
-    "description": "Meet the growing list of projects and members of the Nouns ecosystem.",
+    "description": "Discover projects, groups, and talent building on the OceanNouns ecosystem.",
     "current": false,
     "defaultOpen": true,
     "children": [
@@ -104,24 +64,14 @@
         "external": false
       },
       {
+        "name": "Groups",
+        "link": "/groups",
+        "external": false
+      },
+      {
         "name": "Talent",
         "link": "/talent",
         "external": false
-      },
-      {
-        "name": "Learn",
-        "link": "/learn",
-        "external": false
-      },
-      {
-        "name": "Podcast",
-        "link": "http://nounotalk.com/",
-        "external": true
-      },
-      {
-        "name": "Blog",
-        "link": "https://nouns.blog/",
-        "external": true
       }
     ]
   }
