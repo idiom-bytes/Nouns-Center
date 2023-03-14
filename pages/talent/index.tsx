@@ -10,7 +10,7 @@ import Subheader from '../../components/Subheader';
 import PageContent from '../../components/Layout/PageContent';
 import PageHeader from '../../components/Layout/PageHeader';
 import Button from '../../components/common/Button';
-import { fetchTalentFormData, TALENT_FORM_ID } from '../../utils/talent-form-data-fetching';
+import { TALENT_FORM_ID } from '../../utils/talent-form-data-fetching';
 
 // export const getServerSideProps = async () => {
 //   let talentDataFromAPI = [];
@@ -25,7 +25,7 @@ import { fetchTalentFormData, TALENT_FORM_ID } from '../../utils/talent-form-dat
 //   };
 // };
 
-const Talent = props => {
+const Talent = () => {
   // const { talentFromServer } = props;
 
   const talent = talentFromJSON;
